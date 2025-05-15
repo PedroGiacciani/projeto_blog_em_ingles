@@ -4,6 +4,7 @@
     --color: #880000;
 
 }
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
@@ -13,14 +14,21 @@
 header{
     background-color: var(--color);
 
-    padding: 80px;
+    padding: 70px;
     text-align: center;
 }
 
 header > h1{
-    font-size: 3em;
+    font-variant: small-caps;
+    font-size: 3.2em;
 }
 
 header > p{
+    font-size: 1.3em;
     padding: 20px;
+}
+
+nav{
+    background-color: var(--color);
+    padding: 10px;
 }
