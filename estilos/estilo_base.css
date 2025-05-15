@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root{
+    --color: #880000;
+
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--color);
+
+    padding: 80px;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 3em;
+}
+
+header > p{
+    padding: 20px;
+}
