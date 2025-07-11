@@ -58,30 +58,14 @@ main{
     position: relative;
     border: 1px solid black;
     border-radius: 0px 0px 5px 5px;
+
+    height: 900px;
 }
 
-main section#stw{
+main section{
     position: absolute;
-    left: 14%;
-    top: 30%;
-
-    width: 300px;
-    height: 300px;
+    top: 50%;
+    left: 50%;
 
     border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
-}
-
-main section#slt{
-    position: absolute;
-    left: 14%;
-    top: 30%;
-
-    width: 300px;
-    height: 300px;
-
-    border: 1px solid black;
-    padding: 20px;
-    margin: 20px;
 }
