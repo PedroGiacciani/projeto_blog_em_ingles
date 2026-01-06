@@ -10,10 +10,6 @@
     margin: 0px;
 }
 
-html{
-    height: 100vh;
-}
-
 header{
     background-color: var(--cor1);
 
@@ -56,6 +52,7 @@ nav > a:hover{
     border-radius: 5px;
 }
 
+
 section{
     position: relative;
     top: 50%;
@@ -97,5 +94,4 @@ footer > p > a{
 
 footer > p > a:hover{
     text-decoration: underline;
-    
 }
