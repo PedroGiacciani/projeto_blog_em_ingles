@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-html, body{
+body{
     background-color: lightgray;
 }
 
@@ -20,7 +20,12 @@ header{
 header > h1{
     padding: 10px;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 4px black;
+}
+
+header > p{
+    text-shadow: 1px 1px 20px black;
 }
 
 nav{   
@@ -50,11 +55,14 @@ main{
     border-radius: 0px 0px 10px 10px;
     padding: 30px 10px 30px 10px;
 
+    box-shadow: 1px 1px 3px black;
+}
+
+article{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
-
 
 a.sec{
     text-decoration: none;
@@ -85,16 +93,7 @@ section > div.imagem{
     height: 70%;
 }
 
-section > div#img1{
-    background: black url("../midia/section-stw-m.jpg") no-repeat center center;
-}
-
-section > div#img2{
-    background: black url("../midia/section-nirvana-m.jpg") no-repeat center center;
-}
-
 footer{
-    align-self: flex-end;
     background-color: rgb(141, 9, 9);
     color: white;
     padding: 5px 0px;
@@ -111,4 +110,28 @@ footer > p > a{
 
 footer > p > a:hover{
     text-decoration: underline;
+}
+
+section > div#img1{
+    background: black url("../midia/section-stw-m.jpg") no-repeat center center;
+}
+
+section > div#img2{
+    background: black url("../midia/section-nirvana-m.jpg") no-repeat center center;
+}
+
+section > div#img3{
+    background: black url("../midia/pedro.jpg") no-repeat center center;
+}
+
+section > div#img4{
+    background: black url("../midia/kaelrbs.jpg") no-repeat center center;
+}
+
+section > div#img5{
+    background: black url("../midia/lorenzo.jpg") no-repeat center center;
+}
+
+section > div#img6{
+    background: black url("../midia/gian.jpg") no-repeat center center;
 }
