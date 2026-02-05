@@ -55,12 +55,24 @@ main{
     justify-content: space-evenly;
 }
 
+
+a.sec{
+    text-decoration: none;
+    color: black;
+}
+
+a.sec:hover{
+    transform: translate(5%, 5%);
+    transition-duration: .2s;
+}
+
 section{
     border: 1px solid black;
     text-align: center;
-    width: 390px;
-    height: 370px;
-    margin-bottom: 10px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 30px;
+    border: 2px solid black;
 }
 
 section > div.conteudo > h2{
@@ -70,7 +82,7 @@ section > div.conteudo > h2{
 section > div.imagem{
     background-size: cover;
     width: 100%;
-    height: 78%;
+    height: 70%;
 }
 
 section > div#img1{
