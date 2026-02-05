@@ -14,13 +14,13 @@ header{
     background-color: rgb(141, 9, 9);
     padding: 30px;
     text-align: center;
-    height: 150px;
+    max-height: 200px;
 }
 
 header > h1{
     padding: 10px;
     font-variant: small-caps;
-    font-size: 3em;
+    font-size: 8vw;
     text-shadow: 1px 1px 4px black;
 }
 
