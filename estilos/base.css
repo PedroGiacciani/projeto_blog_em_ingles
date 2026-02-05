@@ -93,15 +93,14 @@ section > div#img2{
     background: black url("../midia/section-nirvana-m.jpg") no-repeat center center;
 }
 
-
 footer{
+    align-self: flex-end;
     background-color: rgb(141, 9, 9);
     color: white;
     padding: 5px 0px;
     text-align: center;
-    position: absolute;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 footer > p > a{

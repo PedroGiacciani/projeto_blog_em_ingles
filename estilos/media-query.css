@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 882px){
+
+    main{
+        height: auto;
+    }
+
+    section{
+        width: 500px;
+        height: 520px;
+    }
+
+    section > div.imagem{
+        width: 100%;
+        height: 70%;
+    }
+
+    section > div#img1{
+        background: black url("../midia/section-stw-g.jpg") no-repeat center center;
+    }
+
+    section > div#img2{
+        background: black url("../midia/section-nirvana-g.jpg") no-repeat center center;
+    }
+
+    footer{
+        margin-top: 106px;
+    }
+}
