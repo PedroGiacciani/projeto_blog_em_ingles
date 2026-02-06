@@ -25,6 +25,10 @@
         background: black url("../midia/section-nirvana-g.jpg") no-repeat center center;
     }
 
+    section > div#img7{
+        background: black url("../midia/section-stw-g.jpg") no-repeat center center;
+    }
+
     footer{
         margin-top: 106px;
     }
